@@ -358,6 +358,7 @@ class spmatrix(object):
         array([ 1, -3, -1], dtype=int64)
 
         """
+        print('        ====>base.py dot')
         return self * other
 
     def power(self, n, dtype=None):
